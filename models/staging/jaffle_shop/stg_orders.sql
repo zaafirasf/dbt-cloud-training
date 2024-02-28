@@ -6,8 +6,8 @@ with orders as (
       order_date,
       status
 
-  from `dbt-tutorial.jaffle_shop.orders`
+  from {{ source('jaffle_shop', 'orders')}}
 
 )
 
-select * from orders order by order_id asc
+select * from orders
