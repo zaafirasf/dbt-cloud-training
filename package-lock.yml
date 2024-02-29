@@ -1,0 +1,14 @@
+packages:
+- package: fivetran/github
+  version: 0.7.0
+- package: dbt-labs/dbt_utils
+  version: 1.1.1
+- package: gitlabhq/snowflake_spend
+  version: 1.3.0
+- package: fivetran/github_source
+  version: 0.7.1
+- package: fivetran/fivetran_utils
+  version: 0.4.10
+- package: dbt-labs/spark_utils
+  version: 0.3.0
+sha1_hash: aee290c57b6b9642bf6212bb15b3137fa5a8033b
